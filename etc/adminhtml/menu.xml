@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- File: app/code/Pulsestorm/MenuTutorial/etc/adminhtml/menu.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="TapLink_BlindHashing::taplink_blindhashing_admin_backend_menu"
+             title="TapLink"
+             module="TapLink_BlindHashing"
+             action="taplink_blindhashing_admin_backend/index/index"
+             sortOrder="9999"
+             resource="TapLink_BlindHashing::config" />
+    </menu>
+</config>

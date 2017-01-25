@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="taplink_blindhashing_admin_backend" frontName="taplink_blindhashing_admin_backend">
+            <module name="TapLink_BlindHashing"/>
+        </route>
+    </router>
+</config>

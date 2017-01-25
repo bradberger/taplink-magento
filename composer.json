@@ -1,0 +1,20 @@
+{
+  "name": "taplink/module-blindhashing",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": ["MIT"],
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/module-store": "1.0.0-beta",
+    "magento/module-catalog": "1.0.0-beta",
+    "magento/module-catalog-inventory": "1.0.0-beta",
+    "magento/module-ui": "self.version",
+    "magento/magento-composer-installer": "*",
+    "taplink/taplink-php": "*",
+    "ext-libsodium": "*"
+  },
+  "autoload": {
+      "psr-4": { "TapLink\\BlindHashing\\": "" },
+      "files": [ "registration.php" ]
+  }
+}

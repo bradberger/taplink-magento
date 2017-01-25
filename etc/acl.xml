@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="TapLink_BlindHashing::top" title="TapLink Blind Hashing">
+                    <resource id="TapLink_BlindHashing::config" title="Configuration" />
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="backend_auth_user_login_success">
+        <observer name="taplink_blindhashing_backend_user_login_listener" instance="TapLink\BlindHashing\Model\BackendUserLoginObserver"/>
+    </event>
+    <event name="admin_user_authenticate_after">
+        <observer name="taplink_blindhashing_admin_user_authenticate_after_listener" instance="TapLink\BlindHashing\Model\AdminUserAuthenticateAfterObserver"/>
+    </event>
+    <event name="customer_customer_authenticated">
+        <observer name="taplink_blindhashing_customer_authenticated_listener" instance="TapLink\BlindHashing\Model\CustomerAuthenticatedObserver"/>
+    </event>
+</config>
